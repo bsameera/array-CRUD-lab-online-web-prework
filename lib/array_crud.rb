@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  arr = [1,3,5,7,9,11]
+  arr = [1,3,5,7]
 end
 
 def add_element_to_end_of_array(array, element)
@@ -11,7 +11,7 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
